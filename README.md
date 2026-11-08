@@ -32,35 +32,11 @@ This project follows an end-to-end data analytics workflow, from data exploratio
 | Power Query | Data cleaning and transformation |
 | Excel / CSV | Dataset handling |
 
-## 📂 Project Structure
+## 📂 Repository Contents
 
-```text
-DataCo-Supply-Chain-Analytics/
-│
-├── 01_Raw_Data/
-│   └── README.txt
-│
-├── 02_SQL_Scripts/
-│   ├── 01_Data_Exploration.sql
-│   └── 02_SQL_Insights.md
-│
-├── 03_Python_Analysis/
-│   └── Explore_Data.py
-│
-├── 03_PowerBI/
-│
-├── 04_Documentation/
-│   ├── Project_Overview.md
-│   ├── Key_Insights.md
-│   └── Data_Dictionary.xlsx
-│
-├── 05_Assets/
-│
-├── Dashboard.png
-├── DataCo_Supply_Chain_Analysis.pbix
-├── explore_data.py
-└── README.md
-```
+- `DataCo_Supply_Chain_Analysis.pbix` – Power BI dashboard file
+- `Dashboard.png` – Screenshot of the final dashboard
+- `explore_data.py` – Python data exploration script
 
 ## 📊 Power BI Dashboard
 
@@ -68,16 +44,16 @@ The interactive dashboard provides an overview of supply chain performance throu
 
 ### Key Performance Indicators (KPIs)
 
-- Total Orders
-- On-Time Delivery Rate
-- Average Delay
-- Late Delivery Rate
-- Total Benefit
-- Average Shipping Days
+- Total Orders: 180,516
+- On-Time Delivery Rate: 40.9%
+- Average Delay: 0.9 Days
+- Late Delivery Rate: 54.83%
+- Total Benefit: $3.97M
+- Average Shipping Days: 3.5
 
 ### Dashboard Features
 
-- Delivery Performance Trend
+- Delivery Performance Trend (Monthly)
 - Profit by Category
 - Fulfillment Status Distribution
 - Order Fulfillment by Store
@@ -102,8 +78,6 @@ Key analysis areas:
 - Delivery status distribution
 - Ranking analysis using SQL window functions
 
-**SQL File:** `02_SQL_Scripts/01_Data_Exploration.sql`
-
 ## 🐍 Python Analysis
 
 Python was used for initial dataset exploration and analytical preparation.
@@ -115,8 +89,6 @@ Key activities:
 - Exploring missing values
 - Reviewing data structure and distributions
 
-**Python File:** `03_Python_Analysis/Explore_Data.py`
-
 ## 📈 Business Insights
 
 The analysis focuses on identifying:
@@ -126,8 +98,6 @@ The analysis focuses on identifying:
 3. Profitability differences across product categories.
 4. Operational areas that may require improvement.
 5. Opportunities to improve delivery reliability and customer satisfaction.
-
-For more details, see [Key Business Insights](04_Documentation/Key_Insights.md).
 
 ## 💡 Business Recommendations
 
@@ -141,18 +111,7 @@ For more details, see [Key Business Insights](04_Documentation/Key_Insights.md).
 
 The project uses the **DataCo Smart Supply Chain dataset**.
 
-The raw CSV files are not included in this repository because of their large file size.
-
-Refer to `01_Raw_Data/README.txt` for dataset information.
-
-## 📚 Project Documentation
-
-- [Project Overview](04_Documentation/Project_Overview.md)
-- [Key Business Insights](04_Documentation/Key_Insights.md)
-- [Data Dictionary](04_Documentation/Data_Dictionary.xlsx)
-- [SQL Analysis](02_SQL_Scripts/01_Data_Exploration.sql)
-- [Python Analysis](03_Python_Analysis/Explore_Data.py)
-- [Power BI Dashboard File](DataCo_Supply_Chain_Analysis.pbix)
+The raw CSV files are not included in this repository because of their large file size. Refer to the original dataset source for download instructions.
 
 ## 👩‍💻 Author
 
@@ -161,6 +120,8 @@ Refer to `01_Raw_Data/README.txt` for dataset information.
 Aspiring Data Analyst | Power BI Developer
 
 **Technical Skills:** SQL | Power BI | Python | Advanced Excel | DAX | Power Query | Data Visualization
+
+🔗 [LinkedIn](https://www.linkedin.com/in/sakunthalasuriyan) | 🔗 [GitHub](https://github.com/sakunthala-suriyan) | 📧 sakunthalasuriyan992@gmail.com
 
 ---
 
